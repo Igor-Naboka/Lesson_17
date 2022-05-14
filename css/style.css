@@ -43,6 +43,7 @@ body {
 
 /* button */
 .button {
+  display: inline-block;
 }
 .button__link {
   display: inline-flex;
@@ -136,13 +137,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 28px;
+  column-gap: 30px;
 }
 .info-header {
 }
 
 .info-header__about {
   flex: 1 1 auto;
-  padding: 0 30px;
 }
 .about-header {
   display: flex;
@@ -335,7 +336,7 @@ body {
   row-gap: 24px;
 }
 .promise__item {
-  padding: 4px 12px;
+  padding: 0px 12px;
   flex: 1 1 33.333%;
   min-width: 324px;
 }
@@ -481,7 +482,7 @@ body {
   }
 
   .promise__item {
-    padding: 4px 12px;
+    padding: 0px 12px;
     flex: 0 1 50%;
     max-width: 485.5px;
   }
